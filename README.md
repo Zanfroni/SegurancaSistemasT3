@@ -13,7 +13,7 @@ Usar o seguinte comando para executar o código: *java -jar app.jar*
 
 - O código faz o resto e imprime tudo de importante na tela!
 
-Nota-se que existe um ITERATION_LIMIT que pode ser ajustado. Ele apenas delimite quantas iterações o gerador de números pseudo-aleatórios pode fazer até o sistema parar ele, evitando um loop infinito. O padrão definido foi 12000 iterações. De 1024 a 2048, está de ótimo tamanho mas pode-se testar com valores maiores.
+Nota-se que existe um ITERATION_LIMIT que pode ser ajustado. Ele apenas delimite quantas iterações o gerador de números pseudo-aleatórios pode fazer até o sistema parar ele, evitando um loop infinito. O padrão definido foi 12000 iterações. De 1024 a 2048, está de ótimo tamanho mas pode-se testar com valores maiores. O valor ONE é apenas uma constante usada nas fórmulas recorrentes no código. Definiu-se uma constante para evitar de declarar *new BigInteger("1")* toda vez.
 
 O código segue fielmente o que foi requisitado no enunciado, com todas as impressões feitas (mais algumas bônus como iterações), a verificação de Fermat implementada a mão e bibliotecas de auxílio (cortesia do BigInteger) utilizadas para a parte de geração de chaves (como gdc(), modPow() e modInverse()).
 
