@@ -128,7 +128,7 @@ public class Main {
             // Se ele exceder o limite de iteracoes, da timeout
             // Cuidar entao com numeros excessivamente grandes (tipo bits maiores que 5000)
             if(iterations > ITERATION_LIMIT){
-                System.out.println("Limite de iterações excedido!");
+                System.out.println("Limite de iteracoes excedido!");
                 System.out.println("Timeout no sistema!");
                 System.exit(1);
             }
