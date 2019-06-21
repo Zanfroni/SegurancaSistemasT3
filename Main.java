@@ -120,7 +120,7 @@ public class Main {
     private static BigInteger generatePrime(int BITS, String id){
         int iterations = 0;
         BigInteger randomNumber = new BigInteger(BITS,rand);
-        while (!fermatPrime(randomNumber) || randomNumber.bitLength() <= 4) {
+        while (!fermatPrime(randomNumber) || randomNumber.bitLength() <= 1000) {
             iterations++;
             randomNumber = new BigInteger(BITS,rand);
             //System.out.println("Bit Length para " + id + ": " + randomNumber.bitLength());
