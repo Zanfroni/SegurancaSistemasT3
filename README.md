@@ -5,7 +5,7 @@ INSTRUÇÕES DE USO:
 
 Deve-se entrar no mesmo diretório que o app.jar está localizado.
 
-Usar o seguinte comando para executar o código: *java -jar app.jar*
+Usar o seguinte comando para executar o código: *java -jar app.jar* (não precisa compilar o .java)
 
 - Digite o número de bits que desejas que os números primos e chaves sejam gerados.
 
