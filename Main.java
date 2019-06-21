@@ -1,5 +1,3 @@
-package segurancat3;
-
 import java.math.BigInteger;
 import java.util.Random;
 import java.util.Scanner;
